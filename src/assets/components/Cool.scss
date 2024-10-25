@@ -1,0 +1,60 @@
+.cool-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    gap: 150px;
+  
+    @media (min-width: 768px) {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    .text-content {
+      flex: 1;
+      margin-right: 20px;
+  
+      h2 {
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+  
+      .cta-btn {
+        background-color: #FF0000;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+  
+        &:hover {
+          background-color: #e63900;
+        }
+      }
+  
+      p {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+  
+    .image-content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+  
+      img {
+        max-width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
