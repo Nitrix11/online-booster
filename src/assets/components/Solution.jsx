@@ -1,5 +1,7 @@
 import React from 'react';
 import './Solution.scss';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChartLine, faClock } from "@fortawesome/free-solid-svg-icons";
 
 const Solution = () => {
   return (
@@ -12,13 +14,13 @@ const Solution = () => {
         <div className="solution-items">
           <div className="item">
             <div className="icon">
-              <i className="fas fa-chart-line"></i>
+              <FontAwesomeIcon icon={faChartLine} />
             </div>
             <h3>No Measurable Results</h3>
           </div>
           <div className="item">
             <div className="icon">
-              <i className="fas fa-clock"></i>
+              <FontAwesomeIcon icon={faClock} />
             </div>
             <h3>Time-Consuming</h3>
           </div>
