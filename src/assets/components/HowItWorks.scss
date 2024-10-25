@@ -99,3 +99,9 @@ $secondary-color: #f2f2f2;
 
 
 
+@media (max-width:425px) {
+  .how-it-works{
+    align-items: center;
+    flex-direction: column;
+  }
+}

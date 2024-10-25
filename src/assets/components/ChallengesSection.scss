@@ -102,13 +102,24 @@ left: 300px;
     }
   }
   
-  @media screen and (max-width: 480px) {
-    .challenges-section {
+  @media (max-width: 480px) {
+    #challenges-section {
+      flex-direction: column;
       .content {
         .challenges-list li {
           font-size: 1rem;
         }
       }
+    }
+  }
+  @media (max-width:425px){
+    .h22{
+     bottom: -2400px;
+     font-size: 20px;
+     left: 50px;
+    }
+    #challenges-section {
+      flex-direction: column;
     }
   }
   

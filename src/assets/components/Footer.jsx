@@ -1,6 +1,9 @@
 import React from 'react';
 import './Footer.scss';
 import logo from "../images/footer logo.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faFacebookF, faInstagram, faLinkedinIn, faYoutube, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -29,12 +32,13 @@ const Footer = () => {
           <h3>Address</h3>
           <p>Batanai Gardens, First Floor Jason Moyo</p>
           <div className="social-links">
-            <a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="social-link"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="social-link"><i className="fab fa-linkedin-in"></i></a>
-            <a href="#" className="social-link"><i className="fab fa-youtube"></i></a>
-            <a href="#" className="social-link"><i className="fab fa-twitter"></i></a>
-          </div>
+  <a href="#" className="social-link"><FontAwesomeIcon icon={faFacebookF} /></a>
+  <a href="#" className="social-link"><FontAwesomeIcon icon={faInstagram} /></a>
+  <a href="#" className="social-link"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+  <a href="#" className="social-link"><FontAwesomeIcon icon={faYoutube} /></a>
+  <a href="#" className="social-link"><FontAwesomeIcon icon={faTwitter} /></a>
+</div>
+
         </div>
         <div className="newsletter-section">
           <h3>Subscribe</h3>
