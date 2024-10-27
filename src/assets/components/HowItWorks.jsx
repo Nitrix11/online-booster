@@ -1,9 +1,12 @@
 import React from 'react';
 import './HowItWorks.scss';
 import cameras from "../images/howitworks.png";
+import howblack from "../images/howblack.png";
 
 const HowItWorks = () => {
   return (
+    <div id='how'>
+      <img src={howblack} id='howblack' alt="" />
     <div className="how-it-works">
             <div className="image-wrapper">
           <img src={cameras} alt="Camera Equipment" />
@@ -28,6 +31,8 @@ const HowItWorks = () => {
         </div>
     
       </div>
+    </div>
+    <hr />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Navbar = () => {
       <button
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        onClick={() => window.open('https://wa.me/+263778530681', '_blank')}
+        onClick={() => window.open('https://wa.me/+263775188055', '_blank')}
       >
     Get in Touch Now
       </button>

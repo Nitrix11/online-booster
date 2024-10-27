@@ -35,6 +35,7 @@ const SocialMediaPromo = () => {
        
       </div>
     </section>
+    <hr className='hr' />
     </> 
     
   );

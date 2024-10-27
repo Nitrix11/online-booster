@@ -1,6 +1,15 @@
 $primary-color: #d90429;
 $secondary-color: #f2f2f2;
-
+#why{
+  position: relative;
+}
+.whyred{
+  position: absolute;
+  top: 0;
+right: 0;
+width: 4%;
+ 
+}
 .why-choose-us {
   background-color: white;
   padding: 60px 20px;
@@ -8,6 +17,7 @@ $secondary-color: #f2f2f2;
   .content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;

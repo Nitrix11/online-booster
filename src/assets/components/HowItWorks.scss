@@ -1,8 +1,18 @@
 
 $primary-color: #d90429;
-$secondary-color: #f2f2f2;
+$secondary-color: #fff;
 .h2222{
   padding-bottom: 30px;
+}
+#how{
+  position: relative;
+}
+#howblack{
+  position: absolute;
+top: 300px;
+  right: 0;
+  width: 4%;
+  z-index: 51;
 }
 .how-it-works {
   background-color: $secondary-color;
@@ -100,6 +110,13 @@ $secondary-color: #f2f2f2;
 
 
 @media (max-width:425px) {
+  .how-it-works{
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:540px) {
   .how-it-works{
     align-items: center;
     flex-direction: column;

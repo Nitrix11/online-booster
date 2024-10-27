@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+  color: black;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -30,5 +33,26 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  h3{
+    font-size: 10px;
+  }
+  .promo-section{
+    font-size:15px; 
+    .promo-content{
+      .text-content{
+        h3{
+          font-size: 10px;
+          font-weight: bold;
+        }
+        .highlight{
+          font-size: 35px;
+        }
+      }
+    }
   }
 }

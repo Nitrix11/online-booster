@@ -1,9 +1,11 @@
 import React from 'react';
 import './GetStartedToday.scss';
-
+import getred from"../images/getred.png"
 const GetStartedToday = () => {
   return (
-    <div className="get-started-today">
+    <div id='get'> 
+    <img src={getred} className='getred' alt="" />
+       <div className="get-started-today">
       <div className="content-wrapper">
         
         <div className="form-container">
@@ -38,6 +40,8 @@ promo package
         </div>
       </div>
     </div>
+    </div>
+
   );
 };
 

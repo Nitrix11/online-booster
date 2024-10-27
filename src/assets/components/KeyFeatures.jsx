@@ -34,6 +34,7 @@ const KeyFeatures = () => {
         </div>
       </div>
       <button className="cta-button">Claim Your 50% Discount—<span><br /></span>Limited Slots Available!</button>
+      <hr />
     </section>
   );
 };

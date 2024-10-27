@@ -1,9 +1,11 @@
 import React from 'react';
 import './Cool.scss';
 import claim from '../images/claimpromo.png';
-
+import black from"../images/clamblack.png"
 const CoolSection = () => {
   return (
+    <div id='wrapper-black'>
+    <img src={black} alt="" id='black' />
     <div className="cool-section">
       <div className="text-content">
         <h2 className=''> <b>Claim Promo Package</b></h2>
@@ -18,6 +20,7 @@ const CoolSection = () => {
       <div className="image-content">
         <img src={claim} alt="Customer Support" />
       </div>
+    </div>
     </div>
   );
 };

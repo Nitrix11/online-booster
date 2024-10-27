@@ -1,10 +1,14 @@
 import React from 'react';
 import './PromoSection.scss';
 import group from '../images/landing pic group.png';
+import red from '../images/herored.png';
+import circle  from '../images/Ellipse 2.png';
 
 const PromoSection = () => {
-  return (
+  return (<>
     <div className="promo-section">
+      <img src={circle} alt="" className='circle' />
+<  img src={red} alt="" className="red" />
 
       <div className="promo-content">
         <div className="text-content">
@@ -19,6 +23,8 @@ const PromoSection = () => {
         </div>
       </div>
     </div>
+    <hr />
+    </>
   );
 };
 

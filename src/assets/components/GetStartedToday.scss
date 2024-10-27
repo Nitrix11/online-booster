@@ -1,5 +1,15 @@
 $primary-color: #d90429;
 $secondary-color: #f2f2f2;
+#get{
+  position: relative;
+}
+.getred{
+  position: absolute;
+  z-index: 11;
+  right: 0;
+  width: 5%;
+  top: 200px;
+}
 .texts{
   h2{
     font-weight: bold;

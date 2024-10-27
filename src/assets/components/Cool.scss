@@ -1,4 +1,15 @@
+#wrapper-black{
+  position: relative;
+}
+#black{
+position: absolute;
+left: 0;
+bottom: -90px;
+z-index: 11;
+width: 4%;
+}
 .cool-section {
+
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,11 +1,14 @@
 import React from 'react';
 import './WhyChooseUs.scss';
 import  choose from "../images/chooseus.png";
-
+import  whyred from "../images/whyred.png";
 const WhyChooseUs = () => {
   return (
+    <div id='why'>
+    <img src={whyred} className="whyred"alt="" />
     <div className="why-choose-us">
       <div className="content-wrapper">
+        
         <div className="left-content">
           <h2><b>Why BUD KREATIVE?</b></h2>
           <ul>
@@ -20,6 +23,9 @@ const WhyChooseUs = () => {
         </div>
       </div>
     </div>
+    <hr />
+    </div>
+    
   );
 };
 

@@ -5,6 +5,7 @@ import { faChartLine, faClock } from "@fortawesome/free-solid-svg-icons";
 
 const Solution = () => {
   return (
+    <>
     <div className="social-media-solution">
       <div className="solution-content">
         <h2 className='h222'><b>We Have Got<span><br /></span> The Solution For You!!</b></h2>
@@ -31,6 +32,8 @@ const Solution = () => {
         <button className="cta-button">Schedule Your Free Consultation</button>
       </div>
     </div>
+    <hr />
+    </>
   );
 };
 
