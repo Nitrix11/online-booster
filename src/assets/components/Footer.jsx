@@ -2,7 +2,10 @@ import React from 'react';
 import './Footer.scss';
 import logo from "../images/footer logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import facebook from"../images/Facebook.svg";
+import Instagram from"../images/Instagram.svg";
+import Linkedin from"../images/LinkedIn.png";
+import Youtube from"../images/YouTube.svg";
 import { faFacebookF, faInstagram, faLinkedinIn, faYoutube, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -32,11 +35,11 @@ const Footer = () => {
           <h3>Address</h3>
           <p>Batanai Gardens, First Floor Jason Moyo</p>
           <div className="social-links">
-  <a href="#" className="social-link"><FontAwesomeIcon icon={faFacebookF} /></a>
-  <a href="#" className="social-link"><FontAwesomeIcon icon={faInstagram} /></a>
-  <a href="#" className="social-link"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-  <a href="#" className="social-link"><FontAwesomeIcon icon={faYoutube} /></a>
-  <a href="#" className="social-link"><FontAwesomeIcon icon={faTwitter} /></a>
+  <a href="#" className="social-link"><img src={facebook} /></a>
+  <a href="#" className="social-link"><img src={Instagram} /></a>
+  <a href="#" className="social-link"><img src={Linkedin} /></a>
+  <a href="#" className="social-link"><img src={Youtube} /></a>
+  <a href="#" className="social-link"><FontAwesomeIcon className='x' icon={faTwitter} /></a>
 </div>
 
         </div>

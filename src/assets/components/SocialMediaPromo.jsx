@@ -1,9 +1,22 @@
 import React from 'react';
 import './SocialMediaPromo.scss';
 import socialmedia from '../images/socialmedia.png';
-
+import black22 from"../images/socialblack.png"
 const SocialMediaPromo = () => {
   return (
+    <div id='social'>
+    
+    <img src={black22} className="black22" alt="" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
     <>
     <h2 className='h2'><b>What’s Included In Our Social <span><br /></span>Media Management Promo</b></h2>
      <section className="promo-section">
@@ -36,8 +49,9 @@ const SocialMediaPromo = () => {
       </div>
     </section>
     <hr className='hr' />
+   
     </> 
-    
+    </div>
   );
 };
 
