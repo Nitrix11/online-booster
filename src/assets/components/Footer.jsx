@@ -6,6 +6,7 @@ import facebook from"../images/Facebook.svg";
 import Instagram from"../images/Instagram.svg";
 import Linkedin from"../images/LinkedIn.png";
 import Youtube from"../images/YouTube.svg";
+import x from"../images/x.svg";
 import { faFacebookF, faInstagram, faLinkedinIn, faYoutube, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -35,11 +36,11 @@ const Footer = () => {
           <h3>Address</h3>
           <p>Batanai Gardens, First Floor Jason Moyo</p>
           <div className="social-links">
-  <a href="#" className="social-link"><img src={facebook} /></a>
-  <a href="#" className="social-link"><img src={Instagram} /></a>
-  <a href="#" className="social-link"><img src={Linkedin} /></a>
-  <a href="#" className="social-link"><img src={Youtube} /></a>
-  <a href="#" className="social-link"><FontAwesomeIcon className='x' icon={faTwitter} /></a>
+  <a href="https://www.facebook.com/people/Bud-Kreative/61559118987578/" className="social-link"><img src={facebook} /></a>
+  <a href="https://www.instagram.com/budkreative/" className="social-link"><img src={Instagram} /></a>
+  <a href="https://www.linkedin.com/company/bud-kreative/" className="social-link"><img src={Linkedin} /></a>
+  <a href="https://www.youtube.com/@budkreative/" className="social-link"><img src={Youtube} /></a>
+  <a href="https://x.com/BudKreative/" className="social-link"><img src={x} /></a>
 </div>
 
         </div>
