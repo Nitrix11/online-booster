@@ -69,3 +69,14 @@ width: 4%;
       }
     }
   }
+  @media (max-width:425px) {
+    .cool-section{
+      gap: 50px;
+      p{
+        font-size: 10px;
+      }
+      img{
+        width: 50%;
+      }
+    }
+  }
