@@ -121,6 +121,9 @@ top: 300px;
 
 
 @media (max-width:425px) {
+  .image-wrapper {
+    width: 100%;
+  }
   .how-it-works{
     align-items: center;
     flex-direction: column;
