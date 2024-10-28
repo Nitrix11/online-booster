@@ -134,6 +134,7 @@
         width: 80%;
       }
     }
+
   }
   
 @media  (max-width: 375px) {
@@ -143,6 +144,11 @@
   .promo-section{
     flex-direction: column;
   }
+  .promo-details{
+    p{
+      font-size: 10px;
+    }
+   }
 }
 @media  (max-width: 425px) {
   .h2{
@@ -150,6 +156,11 @@
    }
    .promo-section{
      flex-direction: column;
+   }
+   .promo-details{
+    p{
+      font-size: 10px;
+    }
    }
  }
  
@@ -159,5 +170,10 @@
    }
    .promo-section{
      flex-direction: column;
+   }
+   .promo-details{
+    p{
+      font-size: 15px;
+    }
    }
  }
