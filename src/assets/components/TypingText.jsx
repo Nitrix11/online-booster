@@ -19,7 +19,7 @@ function TypingText() {
             setIsTyping(true);
             setTypedText("");
             i = 0;
-          }, 25000); // pause before restarting
+          }, 35000); // pause before restarting
         }
       }
     }, 150); // adjust typing speed
