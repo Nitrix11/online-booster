@@ -19,10 +19,12 @@ const App = () => {
     <>
       <Navbar />
       <PromoSection />
-      <SocialMediaPromo />
-      <KeyFeatures />
       <ChallengesSection />
       <Solution />
+      <SocialMediaPromo />
+      <KeyFeatures />
+      
+   
       <WhyChooseUs />
       <HowItWorks />
       <Pricing />

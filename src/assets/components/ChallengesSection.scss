@@ -134,9 +134,14 @@ left: 300px;
     }
   }
   @media (max-width:425px){
+
+    #challenges-section{
+      
+      padding-top: 70px;
+    }
     .h22{
       
-        top: -100px;
+
 
      font-size: 20px;
      left: 50px;
@@ -146,8 +151,11 @@ left: 300px;
     }
   }
   @media  (max-width: 375px) {
+    .reds{
+      width: 10px;
+    }
     .h22{
-      top: -100px;
+      top: -40px;
     }
     .image-section{
       align-items: center;
@@ -159,10 +167,11 @@ left: 300px;
     }
   }
   @media (max-width:540px){
+
     .h22{
       font-size: 22px;
       left: 40px;
-      top: -100px;
+      top: -40px;
     }
     #challenges-section{
       flex-direction: column;
