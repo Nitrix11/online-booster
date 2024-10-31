@@ -80,6 +80,7 @@ left: 300px;
   margin-bottom: 35px;
       .image-wrapper1 {
         display: inline-block;
+        
         border-radius: 30px;
         overflow: hidden;
   
@@ -134,6 +135,16 @@ left: 300px;
     }
   }
   @media (max-width:425px){
+    .image-section{
+      
+      align-items: center;
+      .image-wrapper1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+      }
+    }
 
     #challenges-section{
       
@@ -158,9 +169,11 @@ left: 300px;
       top: -40px;
     }
     .image-section{
+      
       align-items: center;
-      .image-wrapper{
+      .image-wrapper1{
         display: flex;
+        justify-content: center;
         align-items: center;
         margin-left: 50px;
       }
