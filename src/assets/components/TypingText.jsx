@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 function TypingText() {
-  const text = "Amplify Your SocialMedia Reach in Just 3 Months!";
+  const text = "Amplify Your Social Media Reach in Just 3 Months!";
   const [typedText, setTypedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
 

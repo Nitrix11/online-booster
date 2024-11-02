@@ -3,6 +3,7 @@
 @tailwind utilities;
 *{
   color: black;
+  font-family: "Century Gothic";
 }
 button {
   border-radius: 8px;
