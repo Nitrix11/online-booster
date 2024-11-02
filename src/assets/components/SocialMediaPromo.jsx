@@ -18,8 +18,8 @@ const SocialMediaPromo = () => {
     
 
     <>
-    <h2 className='h2'><b>What’s Included In Our Social <span><br /></span>Media Management Promo</b></h2>
-     <section className="promo-section">
+    <h2 className='h2'>What’s Included In Our Social Media<span><br /></span> Management Promo</h2>
+     <section className="promo-section1">
       
           <div className="promo-image">
           {/* Replace the below image with your actual assets */}
@@ -42,7 +42,7 @@ const SocialMediaPromo = () => {
             <p>
               Whether you're a startup, SME, or growing business, this package delivers everything you need to boost your online presence and connect with your audience—all at an unbeatable price.
             </p>
-            <button className="contact-button">Get in Touch Now</button>
+            <button className="contact-button">Get Started Now</button>
           </div>
         </div>
        

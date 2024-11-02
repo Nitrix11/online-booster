@@ -7,8 +7,8 @@ import reds from"../images/CBRED.png"
 const ChallengesSection = () => {
   return (
     <div id='CB'>
-      <img src={blacks} className='blacks' blacks alt="" />
-      <img src={reds} className='reds' blacks alt="" />
+      <img src={blacks} className='blacks animated-image2' blacks alt="" />
+      <img src={reds} className='reds animated-image2' blacks alt="" />
     <div >
     
      <h2 className='h22'><b>"Are These Challenges <span><br /></span>Holding Back Your Brand's Growth?"</b></h2>

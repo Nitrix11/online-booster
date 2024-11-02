@@ -4,20 +4,34 @@ import group from '../images/landing pic group.png';
 import red from '../images/herored.png';
 import circle  from '../images/Ellipse 2.png';
 import TypingText from"../components/TypingText"
-
+import black from"../images/heroblack.png"
+import insta from"../images/insta.png"
+import mag from"../images/mag.png"
+import line from"../images/Line.png"
 const PromoSection = () => {
   return (<>
     <div className="promo-section">
-      <img src={circle} alt="" className='circle animated-image' />
-<  img src={red} alt="" className="red animated-image2" />
-
+      <img src={circle} alt="" className='circle animated2-image' />
+      <img src={circle} alt="" className='circle2 animated2-image2' />
+      <img src={black} alt="" className='black' />
+<  img src={red} alt="" className="red animated4-image2" />
+<img src={insta} alt="" className='insta animated3-image' />
+<img src={mag} alt="" className='mag' />
+<img src={line} alt=""className='line'/>
       <div className="promo-content">
         <div className="text-content">
           <h3><TypingText/></h3>
           <h1 className="highlight"></h1>
-          <p className='p1'>Transform your social media in 3 months with <span><br /></span>our Online Presence Booster, @ a 50% discount</p>
-          <p className='p2'><b>Expert Social Media Management for Startups & SMEs at<span><br /></span> Unbeatable Prices. Limited Time Offer – Act Now!</b></p>
-          <button className="cta-btn">Get Started Today<br/>Only $225 for 3 Months</button>
+          <p className='p1'>Join our <span>Online Presence Booster</span> program and  see measurable<span><br /></span>
+          growth on your social platforms at an un beatable rate. </p>
+          <p className='p2'><b>Lock in 3 moths for a 50% discount!</b></p>
+          <p className='p3'><b>$225.00/3 months</b></p>
+          <p className='p4'><b>$450.00/3 months</b></p>
+          <div className='b-Container'>
+            <p>Claim My 3-Month Boost Now</p>
+            <button className="cta-btn">Get Offer</button>
+          </div>
+          
         </div>
         <div className="image-content">
           <img src={group} alt="Promo" />

@@ -2,9 +2,13 @@ import React from 'react';
 import './KeyFeatures.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe, faComments, faChartBar, faVideo, faSearch, faUserCog } from "@fortawesome/free-solid-svg-icons";
-
+import black from"../images/heroblack.png"
+import red from '../images/herored.png';
 const KeyFeatures = () => {
   return (
+    <div className='key'>
+             <img src={black} alt="" className='black2' />
+             <  img src={red} alt="" className="red2 animated4-image2" />
     <section className="key-features-section">
       <h2>Key Features</h2>
       <div className="features-list">
@@ -33,9 +37,10 @@ const KeyFeatures = () => {
           <p>Account Management</p>
         </div>
       </div>
-      <button className="cta-button">Claim Your 50% Discount—<span><br /></span>Limited Slots Available!</button>
+      <button className="cta-button">Get Started Now</button>
       <hr />
     </section>
+    </div>
   );
 };
 

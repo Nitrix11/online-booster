@@ -4,7 +4,7 @@
   font-size: 40px;
   background-color:  #fff;
 }
-.promo-section {
+.promo-section1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +41,7 @@
           font-size: 2rem;
           margin-bottom: 1rem;
           color: #333;
+          font-weight: 340;
         }
   
         .promo-details {
@@ -83,7 +84,7 @@
           .contact-button {
             background-color: #ff4747;
             color: white;
-            padding: 0.75rem 1.5rem;
+            padding: 4px 2.5rem;
             border: none;
             cursor: pointer;
             font-size: 1rem;
@@ -111,7 +112,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .promo-section {
+    .promo-section1 {
       .promo-content {
         flex-direction: column;
       }
@@ -141,7 +142,7 @@
  .h2{
     font-size: 25px;
   }
-  .promo-section{
+  .promo-section1{
     flex-direction: column;
   }
   .promo-details{
@@ -152,9 +153,17 @@
 }
 @media  (max-width: 425px) {
   .h2{
-     font-size: 25px;
+     font-size: 20px;
    }
-   .promo-section{
+   .promo-text h2 {
+    font-size: 10px
+  }
+
+  .promo-text .promo-details h3 {
+    font-size: 15px;
+  }
+
+   .promo-section1{
      flex-direction: column;
    }
    .promo-details{
@@ -168,7 +177,7 @@
   .h2{
      font-size: 25px;
    }
-   .promo-section{
+   .promo-section1{
      flex-direction: column;
    }
    .promo-details{

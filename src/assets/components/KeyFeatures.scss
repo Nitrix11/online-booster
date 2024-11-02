@@ -1,5 +1,22 @@
 
+.key{
+  position: relative;
+}
+.black2{
+  position: absolute;
+ left: 0;
+  bottom: 90px;
+  width: 3%;
 
+
+}
+.red2{
+  position: absolute;
+ right: 0;
+  bottom: 520px;
+  width: 3%;
+
+}
 .key-features-section {
     text-align: center;
     padding: 3rem 1rem;
@@ -46,7 +63,7 @@
     .cta-button {
       background-color: #ff4747;
       color: white;
-      padding: 1rem 2rem;
+      padding: 4px 2.5rem;
       font-size: 1rem;
       border: none;
       cursor: pointer;

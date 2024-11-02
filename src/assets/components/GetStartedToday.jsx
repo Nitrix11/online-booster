@@ -4,7 +4,7 @@ import getred from"../images/getred.png"
 const GetStartedToday = () => {
   return (
     <div id='get'> 
-    <img src={getred} className='getred' alt="" />
+    {/* <img src={getred} className='getred' alt="" /> */}
        <div className="get-started-today">
       <div className="content-wrapper">
         
@@ -34,7 +34,7 @@ promo package
               <input type="text" placeholder="Business Name (Required)" />
             </div>
             <button type="submit" className="cta-button">
-              Schedule Free Consultation
+            Submit & Get Started
             </button>
           </form>
         </div>

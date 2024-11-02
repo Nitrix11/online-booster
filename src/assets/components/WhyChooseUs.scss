@@ -2,6 +2,12 @@ $primary-color: #d90429;
 $secondary-color: #f2f2f2;
 #why{
   position: relative;
+  h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 52px;
+    padding: 7px 0;
+  }
 }
 .whyred{
   position: absolute;
@@ -98,6 +104,13 @@ width: 4%;
       .right-content {
         text-align: center;
       }
+    }
+  }
+}
+@media (max-width:425px) {
+  #why{
+    h3{
+      font-size: 35px;
     }
   }
 }

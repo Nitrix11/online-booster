@@ -5,6 +5,7 @@ import  whyred from "../images/whyred.png";
 const WhyChooseUs = () => {
   return (
     <div id='why'>
+      <h3>Why Choose Us</h3>
     <img src={whyred} className="whyred"alt="" />
     <div className="why-choose-us">
       <div className="content-wrapper">
@@ -23,7 +24,7 @@ const WhyChooseUs = () => {
         </div>
       </div>
     </div>
-    <hr />
+
     </div>
     
   );

@@ -2,15 +2,75 @@
   position: absolute;
  right: 0;
   bottom: 120px;
+  width: 3%;
+
+}
+.black{
+  position: absolute;
+ left: 0;
+  bottom: -90px;
+  width: 3%;
 
 
 }
+.insta{
+  position: absolute;
+top: 0;
+  right: -500;
+  width: 10%;
+}
+.mag{
+  position: absolute;
+z-index: 3;
+ left: 780px;
+  width: 10%;
+  bottom: 60px;
+  animation: spin 15s linear infinite;
+
+
+}
+
+@keyframes spin {
+ 
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }}
+  .line{
+    position: absolute;
+    bottom: 162px;
+    left: 75px;
+    width: 10%;
+  }
 .circle{
   position: absolute;
 left: 0;
 top: 70px;
+width: 3%;
+}
+.circle2{
+  width: 3%;
+  position: absolute;
+right: 50px;
+top: 70px;
+}
+.animated3-image{
+  z-index: -0;
+  // width: 150px; /* Adjust the size as needed */
+  animation: moveleft 2s infinite alternate;
 }
 
+@keyframes moveleft {
+  0% {
+      transform: translateX(460px);
+  }
+  100% {
+      transform: translateX(600px); /* Move up 50px */
+  }
+}
 .animated-image {
   z-index: -0;
   // width: 150px; /* Adjust the size as needed */
@@ -44,12 +104,21 @@ hr{
   margin-bottom: 80px;
 
 }
+
+
 .promo-section {
+  background-image: url("../images/heroBg.png");
+  height: 90vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
  z-index: 50;
   position: relative;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 60px;
+
   .promo-content {
     display: flex;
     align-items: center;
@@ -65,34 +134,53 @@ hr{
       width: 65%;
       padding: 20px;
       margin-right: 400px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
-          0 6px 20px rgba(0, 0, 0, 0.19);
-      border-radius: 0 50px;
-      
+
       h3{
         font-weight: 700;
-        font-size: 25px;
-       width: 75%;
+        font-size: 38px;
+       width: 50%;
         padding-bottom: 5px;
       }
       .p1{
-        font-size: 22px;
+        span{
+          color: #FF0000;
+        }
+        font-size: 20px;
       }
       .p2{
+        b{color: #FF0000;}
+        color: #FF0000;
         padding-top: 10px;
         padding-bottom: 30px;
+      }
+
+      .p4{
+      
+        b{
+          color: #FF0000;
+        }
       }
       .highlight {
         padding: 15px 0;
      
         font-weight: 700;
       }
-      
+      .b-Container{
+        p{
+          padding-top: 4px;
+          padding-bottom: 4px;
+          font-weight: bold;
+        }
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
       .cta-btn {
         background-color: #ff0000;
         color: white;
         border: none;
-        padding: 15px 30px;
+        padding: 4px 50px;
         margin-top: 15px;
         border-radius: 5px;
         cursor: pointer;
@@ -104,12 +192,15 @@ hr{
     }
     
     .image-content {
-      width: 100%;
+ 
+
       flex: 1;
       position: absolute;
-      right: -500px;
+   right: 100px; 
+      bottom: -60px;
       
       img {
+        z-index: 1;
         max-width: 100%;
         height: 470px;
         border-radius: 10px;
@@ -120,6 +211,32 @@ hr{
 
 /* Media query for 425px */
 @media  (max-width: 425px) {
+  .black{
+    bottom: 90px;
+  }
+  .b-Container{
+    p{
+      font-size: 10px;
+    }
+  }
+  .line{
+    position: absolute;
+    bottom: 192px;
+    left: 85px;
+    width: 20%;
+  }
+  .p3{
+    font-size: 10px
+          }
+          .p4{
+            font-size: 10px
+                  }
+  .insta{
+display: none;
+  }
+  .mag{
+    display: none;
+  }
   .promo-section .promo-content .text-content {
     margin-right: 10px;
     width: 90%;
@@ -151,6 +268,12 @@ hr{
 
 /* Media query for 320px */
 @media  (max-width: 320px) {
+  .insta{
+    display: none;
+      }
+      .mag{
+        display: none;
+      }
   .promo-section .promo-content {
     flex-direction: column;
   }
@@ -208,6 +331,12 @@ hr{
 
 
 @media screen and (max-width: 375px) {
+  .insta{
+    display: none;
+      }
+      .mag{
+        display: none;
+      }
   .red{
     width: 10%;
   }
@@ -236,6 +365,12 @@ hr{
   }
 }
 @media screen and (max-width: 540px) {
+  .insta{
+    display: none;
+      }
+      .mag{
+        display: none;
+      }
   .red{
     width: 10%;
   }

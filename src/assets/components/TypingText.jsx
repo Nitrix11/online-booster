@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 function TypingText() {
-  const text = "Struggling with inconsistent posting, low engagement, and time-consuming tasks? We've got you covered";
+  const text = "Amplify Your SocialMedia Reach in Just 3 Months!";
   const [typedText, setTypedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
 
@@ -19,7 +19,7 @@ function TypingText() {
             setIsTyping(true);
             setTypedText("");
             i = 0;
-          }, 35000); // pause before restarting
+          }, 95000); // pause before restarting
         }
       }
     }, 150); // adjust typing speed

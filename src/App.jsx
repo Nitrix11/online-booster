@@ -25,11 +25,12 @@ const App = () => {
       <KeyFeatures />
       
    
-      <WhyChooseUs />
-      <HowItWorks />
+    
+      {/* <HowItWorks /> */}
       <Pricing />
       <GetStartedToday />
-      <CoolSection/>
+      <WhyChooseUs />
+      {/* <CoolSection/> */}
       <Footer />
     </>
   );
