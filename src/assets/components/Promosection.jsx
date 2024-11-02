@@ -8,6 +8,7 @@ import black from"../images/heroblack.png"
 import insta from"../images/insta.png"
 import mag from"../images/mag.png"
 import line from"../images/Line.png"
+import one from"../images/450.svg"
 const PromoSection = () => {
   return (<>
     <div className="promo-section">
@@ -17,7 +18,6 @@ const PromoSection = () => {
 <  img src={red} alt="" className="red animated4-image2" />
 <img src={insta} alt="" className='insta animated3-image' />
 <img src={mag} alt="" className='mag' />
-<img src={line} alt=""className='line'/>
       <div className="promo-content">
         <div className="text-content">
           <h3><TypingText/></h3>
@@ -26,7 +26,7 @@ const PromoSection = () => {
           growth on your social platforms at an un beatable rate. </p>
           <p className='p2'><b>Lock in 3 moths for a 50% discount!</b></p>
           <p className='p3'><b>$225.00/3 months</b></p>
-          <p className='p4'><b>$450.00/3 months</b></p>
+          <p className='p4'><img src={one} alt="" /></p>
           <div className='b-Container'>
             <p>Claim My 3-Month Boost Now</p>
             <button className="cta-btn">Get Offer</button>
