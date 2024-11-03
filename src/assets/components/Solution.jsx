@@ -22,13 +22,13 @@ const Solution = () => {
         <div className="solution-items">
           <div className="item">
             <div className="icon">
-              <FontAwesomeIcon icon={faChartLine} />
+              <FontAwesomeIcon className='icon2' icon={faChartLine} />
             </div>
             <h3>No Measurable Results</h3>
           </div>
           <div className="item">
             <div className="icon">
-              <FontAwesomeIcon icon={faClock} />
+              <FontAwesomeIcon className='icon1' icon={faClock} />
             </div>
             <h3>Time-Consuming</h3>
           </div>

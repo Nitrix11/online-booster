@@ -10,7 +10,7 @@ const KeyFeatures = () => {
              <img src={black} alt="" className='black2' />
              <  img src={red} alt="" className="red2 animated4-image2" />
     <section className="key-features-section">
-      <h2>Key Features</h2>
+      <h2 className='h02'>Key Features</h2>
       <div className="features-list">
         <div className="feature-item">
           <FontAwesomeIcon icon={faGlobe} />

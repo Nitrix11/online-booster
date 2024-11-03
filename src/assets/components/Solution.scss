@@ -137,8 +137,19 @@ margin-bottom: 20px;
       text-align: center;
       flex-direction: column;
       .item{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        .icon{
+        .icon1{
+          width: 75%;
+        }
+        .icon2{
+          width: 65%;
+        }
+        }
         h3{
-          font-size: 14px;
+          font-size: 10px;
         }
       }
     }

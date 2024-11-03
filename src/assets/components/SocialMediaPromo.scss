@@ -140,7 +140,7 @@
   
 @media  (max-width: 375px) {
  .h2{
-    font-size: 25px;
+    font-size: 10px;
   }
   .promo-section1{
     flex-direction: column;
@@ -153,18 +153,29 @@
 }
 @media  (max-width: 425px) {
   .h2{
-     font-size: 20px;
+     font-size: 100px;
    }
-   .promo-text h2 {
-    font-size: 10px
-  }
-
-  .promo-text .promo-details h3 {
-    font-size: 15px;
-  }
-
+  
    .promo-section1{
      flex-direction: column;
+     .promo-content{
+      .promo-text{
+        .promo-details{
+          .h3{
+font-size: 15px;
+          }
+          ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            li{
+              font-size: 13px;
+            }
+          }
+        }
+      }
+     }
    }
    .promo-details{
     p{
@@ -175,14 +186,44 @@
  
 @media  (max-width: 540px) {
   .h2{
-     font-size: 25px;
+     font-size: 20px;
    }
+   .h3 {
+    font-size: 5px;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 5px;
+
+    .li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      font-size: 5px;
+      position: relative;
+      padding-left: 20px;
+
+      &::before {
+        content: "•";
+
+        position: absolute;
+        left: 0;
+        top: -8px;
+        color: #000000;
+        font-size: 5px;
+      }
+    }
+  }
    .promo-section1{
      flex-direction: column;
    }
    .promo-details{
     p{
-      font-size: 15px;
+      font-size: 13px;
     }
    }
  }

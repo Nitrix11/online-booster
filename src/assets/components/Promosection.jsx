@@ -10,7 +10,7 @@ import mag from"../images/mag.png"
 import line from"../images/Line.png"
 import one from"../images/450.svg"
 const PromoSection = () => {
-  return (<>
+  return (<div className='hero'>
     <div className="promo-section">
       <img src={circle} alt="" className='circle animated2-image' />
       <img src={circle} alt="" className='circle2 animated2-image2' />
@@ -20,13 +20,13 @@ const PromoSection = () => {
 <img src={mag} alt="" className='mag' />
       <div className="promo-content">
         <div className="text-content">
-          <h3><TypingText/></h3>
+          <h3>Amplify Your Social Media Reach in Just 3 Months!</h3>
           <h1 className="highlight"></h1>
           <p className='p1'>Join our <span>Online Presence Booster</span> program and  see measurable<span><br /></span>
           growth on your social platforms at an un beatable rate. </p>
           <p className='p2'><b>Lock in 3 moths for a 50% discount!</b></p>
           <p className='p3'><b>$225.00/3 months</b></p>
-          <p className='p4'><img src={one} alt="" /></p>
+          <img  className="p4" src={one} alt="" />
           <div className='b-Container'>
             <p>Claim My 3-Month Boost Now</p>
             <button className="cta-btn">Get Offer</button>
@@ -34,12 +34,12 @@ const PromoSection = () => {
           
         </div>
         <div className="image-content">
-          <img src={group} alt="Promo" />
+          <img src={group} className='promo-pic' alt="Promo" />
         </div>
       </div>
     </div>
     <hr />
-    </>
+    </div>
   );
 };
 

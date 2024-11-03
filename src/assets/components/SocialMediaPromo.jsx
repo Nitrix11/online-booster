@@ -30,11 +30,11 @@ const SocialMediaPromo = () => {
         <div className="promo-text">
           
           <div className="promo-details">
-            <h3>Unlock the full potential of your brand’s social media presence</h3>
+            <h3 className='h3'>Unlock the full potential of your brand’s social media presence</h3>
             <ul>
-              <li>Tailored Social Media Strategies</li>
-              <li>Content Creation for Engaging Posts</li>
-              <li>Actionable Insights for Growth</li>
+              <li className='li'>Tailored Social Media Strategies</li>
+              <li className='li'>Content Creation for Engaging Posts</li>
+              <li className='li'>Actionable Insights for Growth</li>
             </ul>
             <p>
               We’ll take the hassle out of managing your social channels, providing tailored strategies, engaging content, and actionable insights to help your brand stand out.
