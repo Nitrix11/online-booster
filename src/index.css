@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Gothic+A1&display=swap');
+
 *{
   color: black;
-  font-family: "Gothic";
+  font-family: "DotGothic16", s"ans-serif";
 }
 button {
   border-radius: 8px;
