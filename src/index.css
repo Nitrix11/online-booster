@@ -1,12 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+  font-family:"Century Gothic ";
+  src: url(../../kungfu/public/Century\ Gothic.ttf);
+}
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Gothic+A1&display=swap');
 
 *{
   color: black;
-  font-family: "DotGothic16", s"ans-serif";
+  font-family: "Century Gothic";
+}
+.Amplify{
+  font-family:"Century Gothic" ;
 }
 button {
   border-radius: 8px;
