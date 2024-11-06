@@ -77,19 +77,24 @@ width: 4%;
 }
 
 @media (max-width: 768px) {
+  #why{
+    h3{
+      font-size: 30px;
+    }
+  }
   .why-choose-us {
     padding: 40px 20px;
 
     .content-wrapper {
-      flex-direction: column;
-      text-align: center;
+      display: flex;
+     ;
 
       .left-content {
         padding-right: 0;
         margin-bottom: 40px;
 
         h2 {
-          font-size: 28px;
+          font-size: 24px;
         }
 
         ul li {
@@ -108,6 +113,9 @@ width: 4%;
   }
 }
 @media (max-width:425px) {
+  .content-wrapper{
+    flex-direction: column-reverse;
+  }
   #why{
     h3{
       font-size: 25px;

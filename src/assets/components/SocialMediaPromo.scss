@@ -113,13 +113,16 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
+    .h2{
+      font-size: 30px;
+    }
     .promo-section1 {
       .promo-content {
         flex-direction: column;
       }
   
-      .promo-text,
+      
       .promo-image {
         flex: 1 1 100%;
         text-align: center;
@@ -130,12 +133,24 @@
       }
   
       .promo-text .promo-details h3 {
-        font-size: 1.3rem;
+        font-size: 24px;
       }
   
       .promo-image img {
         width: 80%;
       }
+    }
+    .promo-text{
+      width: 100%;
+      .promo-detail{
+        .li{
+          font-size: 22px;
+        }
+        p{
+          font-size: 21px;
+        }
+      }
+
     }
 
   }
@@ -164,6 +179,7 @@
       .promo-text{
         .promo-details{
           .h3{
+            text-align: center;
 font-size: 15px;
           }
           ul{

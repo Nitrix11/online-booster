@@ -114,9 +114,14 @@ align-items: center;
   }
 }
 @media (max-width:425px) {
+ 
   .pricing{
     flex-direction: column;
     gap: 70px;
+    .content-wrapper{
+    .promo-price{
+      text-align: center;}}
+    
   }
   .image-wrapper {
     width: 95%;

@@ -105,10 +105,16 @@ img{
 @media (max-width: 768px) {
   .footer {
     padding: 40px 20px;
-
+    .social-link {
+      color: white;
+      font-size: 20px;
+      transition: color 0.3s ease;
+img{
+width: 100%;
+}}
     .content-wrapper {
-      grid-template-columns: 1fr;
-      grid-gap: 30px;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 25px;
 
       h3 {
         font-size: 16px;
@@ -119,7 +125,11 @@ img{
       }
 
       .social-links .social-link {
-        font-size: 18px;
+        width: 100%;
+        // font-size: 18px;
+        img{
+          width:100%;
+        }
       }
 
       .newsletter-form {
@@ -135,6 +145,14 @@ img{
 
     .copyright {
       font-size: 12px;
+    }
+  }
+}
+@media (max-width:425px) {
+  .footer{
+    .content-wrapper{
+      display: flex;
+      flex-direction: column;
     }
   }
 }

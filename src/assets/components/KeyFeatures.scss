@@ -76,7 +76,12 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
+    .key-features-section {
+      .h02{
+        font-size: 30px;
+        font-weight: bold;
+      }}
     .key-features-section {
       .features-list {
         .feature-item {

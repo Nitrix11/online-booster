@@ -49,7 +49,7 @@ const PromoSection = () => {
     </div>
 
     </div>
-     <hr />   
+     <hr className='hr1'/>   
     </>
   );
 };

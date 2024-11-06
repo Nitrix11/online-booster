@@ -29,7 +29,7 @@ b{
 .h3{
   font-family:" Gothic A1";
   text-align: center;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 570;
 }
 .p0{
@@ -88,8 +88,15 @@ margin-bottom: 20px;
 @media (max-width: 768px) {
   .social-media-solution {
     padding: 40px 20px;
-
+.solution-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
     .solution-content {
+      h3{
+        font-size: 28px;
+      }
       h2 {
         font-size: 28px;
       }
@@ -120,8 +127,10 @@ margin-bottom: 20px;
     }
 .h3{
   text-align: center;
-  font-size: 13px;
+  font-size: 17px;
+  width: 100%;
   font-weight: 570;
+  color: #000;
 }
 .p0{
   text-align: center;
