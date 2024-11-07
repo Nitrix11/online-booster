@@ -127,3 +127,35 @@ align-items: center;
     width: 95%;
   }
 }
+
+@media (max-width: 820px) {
+  .pricing {
+    padding: 40px 20px;
+
+    .content-wrapper {
+      h2 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .promo-price {
+        padding: 20px;
+
+        h3 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .cta-button {
+        font-size: 14px;
+      }
+    }
+  }
+}

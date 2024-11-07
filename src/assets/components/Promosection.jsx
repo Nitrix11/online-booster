@@ -34,8 +34,11 @@ const PromoSection = () => {
           <p className='p1'>Join our <span>Online Presence Booster</span> program and  see measurable<span><br /></span>
           growth on your social platforms at an un beatable rate. </p>
           <p className='p2'><b>Lock in 3 moths for a 50% discount!</b></p>
+          <div className="two">
           <p className='p3'><b>$225.00/3 months</b></p>
           <img  className="p4" src={one} alt="" />
+          </div>
+        
           <div className='b-Container'>
             <p>Claim My 3-Month Boost Now</p>
             <button className="cta-btn">Get Offer</button>

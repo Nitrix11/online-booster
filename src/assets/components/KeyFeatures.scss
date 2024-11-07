@@ -108,3 +108,18 @@
     }
   }
   
+  @media (max-width: 820px) {
+    .key-features-section {
+      .h02{
+        font-size: 30px;
+        font-weight: bold;
+      }}
+    .key-features-section {
+      .features-list {
+        .feature-item {
+          flex: 1 1 45%;
+        }
+      }
+    }
+  }
+  

@@ -156,3 +156,50 @@ width: 100%;
     }
   }
 }
+
+@media (max-width: 820px) {
+  .footer {
+    padding: 40px 20px;
+    .social-link {
+      color: white;
+      font-size: 20px;
+      transition: color 0.3s ease;
+img{
+width: 100%;
+}}
+    .content-wrapper {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 25px;
+
+      h3 {
+        font-size: 16px;
+      }
+
+      ul li a {
+        font-size: 14px;
+      }
+
+      .social-links .social-link {
+        width: 100%;
+        // font-size: 18px;
+        img{
+          width:100%;
+        }
+      }
+
+      .newsletter-form {
+        input {
+          font-size: 14px;
+        }
+
+        .cta-button {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .copyright {
+      font-size: 12px;
+    }
+  }
+}
