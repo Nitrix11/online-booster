@@ -127,6 +127,20 @@ align-items: center;
     width: 95%;
   }
 }
+@media (max-width:414px) {
+ 
+  .pricing{
+    flex-direction: column;
+    gap: 70px;
+    .content-wrapper{
+    .promo-price{
+      text-align: center;}}
+    
+  }
+  .image-wrapper {
+    width: 95%;
+  } 
+}
 
 @media (max-width: 820px) {
   .pricing {

@@ -237,9 +237,106 @@ top: -15px;
         display: flex;
         justify-content: center;
         align-items: center;
+       
+      }
+    }
+  }
+  @media (max-width:414px) {
+    
+
+   
+    #CB{
+      padding: 20px auto;
+      position: relative;
+      .are{
+        #challenges-section {
+          flex-direction: column-reverse;
+          .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .challenges-list{
+          margin-left: 0;
+          margin-right: 30px;
+
+            }
+            .challenges-list li {
+              font-size: 15px;
+
+            }
+          }
+        }
+      }
+    }
+    hr{
+      display: none;
+    }
+    .image-section{
+ 
+padding: 0;
+margin: 0;
+      align-items: center;
+      .image-wrapper1{
+        margin-left: 0;
+        margin-right: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          margin-left: 0;
+        }
+      margin-left: 50px;
+      }
+    }
+
+    #challenges-section{
+      
+      padding-top: 70px;
+    }
+    .are{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    .h22{
+      
+
+top: -15px;
+     font-size: 15px;
+     left: 100px;
+    }}
+    #challenges-section {
+      flex-direction: column;
+    }
+    .reds{
+      width: 10px;
+    }
+    #CB{
+      .are{
+        .h22{
+          font-size: 10px;
+          top: 40px;
+          left: 0;
+          b{
+    left: 0;
+    font-size: 20px;
+          }
+        }
+      }
+  
+    }
+    
+    .image-section{
+      
+      align-items: center;
+      .image-wrapper1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-left: 0;
       }
     }
+  
   }
 
   @media  (max-width: 375px) {
@@ -249,7 +346,7 @@ top: -15px;
     #CB{
       .are{
         .h22{
-          font-size: 10px;
+          font-size: 20px;
           top: 40px;
           left: 0;
           b{

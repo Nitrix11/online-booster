@@ -107,6 +107,36 @@
       }
     }
   }
+  @media (max-width:425px) {
+    .key-features-section {
+      .h02{
+        font-size: 20px;
+      }
+      .features-list {
+        .feature-item {
+          flex: 1 1 100%;
+          p{
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width:414px) {
+    .key-features-section {
+      .h02{
+        font-size: 20px;
+      }
+      .features-list {
+        .feature-item {
+          flex: 1 1 100%;
+          p{
+            font-size: 10px;
+          }
+        }
+      }
+    } 
+  }
   
   @media (max-width: 820px) {
     .key-features-section {

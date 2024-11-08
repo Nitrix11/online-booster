@@ -137,6 +137,31 @@ width: 4%;
     }
   }
 }
+@media (max-width:414px) {
+  .content-wrapper{
+    flex-direction: column-reverse;
+  }
+  #why{
+    h3{
+      font-size: 25px;
+    }
+    .whybud{
+      font-size: 20px;
+    }
+    ul{
+      text-align: left;
+      li{
+     text-align: left;
+      }
+    }
+  }
+  .right-content{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+}
 
 @media (max-width: 820px) {
   #why{
