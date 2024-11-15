@@ -11,6 +11,7 @@ $secondary-color: #f2f2f2;
     font-weight: bold;
     font-size: 52px;
     padding: 7px 0;
+    font-family: "poppins";
   }
 }
 .whyred{
@@ -39,6 +40,9 @@ width: 4%;
       h2 {
         font-size: 32px;
         margin-bottom: 20px;
+        b{
+          font-family: "poppins";
+        }
       }
 
       ul {
@@ -148,9 +152,13 @@ width: 4%;
   #why{
     h3{
       font-size: 25px;
+      font-family: "poppins";
     }
     .whybud{
       font-size: 20px;
+      b{
+        font-family: "poppins";   
+      }
     }
     ul{
       text-align: left;
