@@ -221,7 +221,29 @@ top: -15px;
      left: 100px;
     }}
     #challenges-section {
+      position: relative;
       flex-direction: column;
+      .content{
+        padding-top: 350px;
+   
+      }
+      .image-section{
+        position: absolute;
+  top: 50px;
+        margin-left: 0;
+      
+        right: 80px;
+        align-items: center;
+        .image-wrapper1{
+
+          img{
+            margin-left: 0;
+            width: 100%;
+          left: 0;
+          }
+         
+        }
+      }
     }
     .reds{
       width: 10px;
@@ -241,16 +263,7 @@ top: -15px;
   
     }
     
-    .image-section{
-      
-      align-items: center;
-      .image-wrapper1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-      }
-    }
+   
   }
   @media (max-width:414px) {
     

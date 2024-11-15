@@ -153,6 +153,41 @@ width: 100%;
     .content-wrapper{
       display: flex;
       flex-direction: column;
+
+      .logo{
+        img{
+          width: 35%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:375px) {
+  .footer{
+    .content-wrapper{
+      display: flex;
+      flex-direction: column;
+
+      .logo{
+        img{
+          width: 35%;
+        }
+      }
+    }
+  }
+}
+@media (max-width:320px) {
+  .footer{
+    .content-wrapper{
+      display: flex;
+      flex-direction: column;
+
+      .logo{
+        img{
+          width: 35%;
+        }
+      }
     }
   }
 }
