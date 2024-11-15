@@ -1,4 +1,8 @@
 
+*{
+  color: black;
+  font-family: "Century Gothic";
+}
 .h2{
   text-align: center;
   font-size: 40px;
@@ -39,6 +43,7 @@
         padding: 1.5rem;
   
         h2 {
+          font-family:" Gothic A1";
           font-size: 2rem;
           margin-bottom: 1rem;
           color: #333;
@@ -46,7 +51,7 @@
         }
   
         .promo-details {
-          h3 {
+          h3{
             font-family:" Gothic A1";
             font-size: 1.5rem;
             color: #444;

@@ -7,10 +7,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Gothic+A1&display=swap');
 
-*{
-  color: black;
-  font-family: "Century Gothic";
-}
+
 .Amplify{
   font-family:"Century Gothic" ;
 }
@@ -47,22 +44,115 @@ button:focus-visible {
 }
 
 
-@media screen and (max-width: 320px) {
-  h3{
-    font-size: 10px;
+
+
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+
+
+  .hero {
+    height: auto;
+    margin-bottom: 600px;
+    width: 100%;
+ 
+
   }
-  .promo-section{
-    font-size:15px; 
-    .promo-content{
-      .text-content{
-        h3{
-          font-size: 10px;
-          font-weight: bold;
-        }
-        .highlight{
-          font-size: 35px;
-        }
+
+  .red, .black, .insta, .mag, .line, .circle, .circle2 {
+    display: none;
+  }
+
+  .hero{.promo-section {
+    padding: 0;
+    margin-bottom: 0;
+  }}
+
+  .hero{.promo-section {.promo-content { 
+       position: absolute;
+       top: -200px;
+       left: -110px;
+      
+  width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    .image-content{
+      width: 70%;
+position:absolute;
+top:500px;
+left:200px;
+img{
+  width:90%;
+  height:200px;
+}
+
+    }
+  }}}
+
+  .hero{.promo-section {.promo-content {.text-content {
+    width: 90%;
+    padding: 0;
+    margin-right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{   width:80%;
+      font-size: 20px;
+      text-align: center;
+    }
+    .p1{
+      width:70%;
+      text-align:center;
+      font-size: 14px; 
+    }
+    .p2{
+     margin-top:300px;
+  
+    }
+    .p4{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 70px;
+width: 73%;
+    }
+    .b-Container{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-left: 190px;
+      p{
+        font-size: 14px;
+      }
+      .cta-btn{
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 14px;
       }
     }
   }
-}
+}}}
+.hero{.promo-section {.promo-content {.text-content {.text-content h3 {
+    font-size: 24px;
+    width: 90%;
+  }
+}}}}
+ .hero{.promo-section {.promo-content {.text-content {.text-content h3 { .text-content .p1 {
+    font-size: 16px;
+  }}}}}}
+
+ .hero{.promo-section {.promo-content {.text-content {.text-content h3 { .text-content .p4 {
+    width: 100%;
+  }}}}}
+
+  .image-content {
+    position: static;
+    img {
+      height: auto;
+      max-width: 70%;
+    }
+  }
+}}
