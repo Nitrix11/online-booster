@@ -84,130 +84,130 @@ width: 4%;
   }
 }
 
-@media (max-width: 768px) {
-  #why{
-    h3{
-      font-size: 30px;
-    }
-  }
-  .why-choose-us {
-    padding: 40px 20px;
+// @media (max-width: 768px) {
+//   #why{
+//     h3{
+//       font-size: 30px;
+//     }
+//   }
+//   .why-choose-us {
+//     padding: 40px 20px;
 
-    .content-wrapper {
-      display: flex;
-     ;
+//     .content-wrapper {
+//       display: flex;
+//      ;
 
-      .left-content {
-        padding-right: 0;
-        margin-bottom: 40px;
+//       .left-content {
+//         padding-right: 0;
+//         margin-bottom: 40px;
 
-        h2 {
-          font-size: 24px;
-        }
+//         h2 {
+//           font-size: 24px;
+//         }
 
-        ul li {
-          font-size: 14px;
-        }
+//         ul li {
+//           font-size: 14px;
+//         }
 
-        .cta-button {
-          font-size: 14px;
-        }
-      }
+//         .cta-button {
+//           font-size: 14px;
+//         }
+//       }
 
-      .right-content {
-        text-align: center;
-      }
-    }
-  }
-}
-@media (max-width:425px) {
-  .content-wrapper{
-    flex-direction: column-reverse;
-  }
-  #why{
-    h3{
-      font-size: 25px;
-    }
-    .whybud{
-      font-size: 20px;
-    }
-    ul{
-      text-align: left;
-      li{
-     text-align: left;
-      }
-    }
-  }
-  .right-content{
-    width: 100%;
-    img{
-      width: 100%;
-    }
-  }
-}
-@media (max-width:414px) {
-  .content-wrapper{
-    flex-direction: column-reverse;
-  }
-  #why{
-    h3{
-      font-size: 25px;
-      font-family: "poppins";
-    }
-    .whybud{
-      font-size: 20px;
-      b{
-        font-family: "poppins";   
-      }
-    }
-    ul{
-      text-align: left;
-      li{
-     text-align: left;
-      }
-    }
-  }
-  .right-content{
-    width: 100%;
-    img{
-      width: 100%;
-    }
-  }
-}
+//       .right-content {
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+// @media (max-width:425px) {
+//   .content-wrapper{
+//     flex-direction: column-reverse;
+//   }
+//   #why{
+//     h3{
+//       font-size: 25px;
+//     }
+//     .whybud{
+//       font-size: 20px;
+//     }
+//     ul{
+//       text-align: left;
+//       li{
+//      text-align: left;
+//       }
+//     }
+//   }
+//   .right-content{
+//     width: 100%;
+//     img{
+//       width: 100%;
+//     }
+//   }
+// }
+// @media (max-width:414px) {
+//   .content-wrapper{
+//     flex-direction: column-reverse;
+//   }
+//   #why{
+//     h3{
+//       font-size: 25px;
+//       font-family: "poppins";
+//     }
+//     .whybud{
+//       font-size: 20px;
+//       b{
+//         font-family: "poppins";   
+//       }
+//     }
+//     ul{
+//       text-align: left;
+//       li{
+//      text-align: left;
+//       }
+//     }
+//   }
+//   .right-content{
+//     width: 100%;
+//     img{
+//       width: 100%;
+//     }
+//   }
+// }
 
-@media (max-width: 820px) {
-  #why{
-    h3{
-      font-size: 30px;
-    }
-  }
-  .why-choose-us {
-    padding: 40px 20px;
+// @media (max-width: 820px) {
+//   #why{
+//     h3{
+//       font-size: 30px;
+//     }
+//   }
+//   .why-choose-us {
+//     padding: 40px 20px;
 
-    .content-wrapper {
-      display: flex;
-     ;
+//     .content-wrapper {
+//       display: flex;
+//      ;
 
-      .left-content {
-        padding-right: 0;
-        margin-bottom: 40px;
+//       .left-content {
+//         padding-right: 0;
+//         margin-bottom: 40px;
 
-        h2 {
-          font-size: 24px;
-        }
+//         h2 {
+//           font-size: 24px;
+//         }
 
-        ul li {
-          font-size: 14px;
-        }
+//         ul li {
+//           font-size: 14px;
+//         }
 
-        .cta-button {
-          font-size: 14px;
-        }
-      }
+//         .cta-button {
+//           font-size: 14px;
+//         }
+//       }
 
-      .right-content {
-        text-align: center;
-      }
-    }
-  }
-}
+//       .right-content {
+//         text-align: center;
+//       }
+//     }
+//   }
+// }

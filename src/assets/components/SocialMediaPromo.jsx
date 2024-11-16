@@ -18,7 +18,7 @@ const SocialMediaPromo = () => {
     
 
     <>
-    <h2 className='h2'>What’s Included In Our Social Media<span><br /></span> Management Promo</h2>
+    <h2 className='h2'>What’s Included In Our Social Media<span className='span1'><br /></span> Management Promo</h2>
      <section className="promo-section1">
       
           <div className="promo-image">

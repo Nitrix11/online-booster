@@ -20,7 +20,7 @@ const Pricing = () => {
       
         {/* <button className="cta-button">Get Started Now</button> */}
       </div>
-      <div className="image-wrapper">
+      <div className="image-wrapper image-wrapper2">
           <img src={price} alt="Social Media Setup" />
         </div>
     </div>

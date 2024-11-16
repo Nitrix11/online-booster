@@ -11,9 +11,12 @@ const Solution = () => {
        <  img src={red} alt="" className="red animated-image2" />
     <div className="social-media-solution">
       <div className="solution-content">
+        <div className="two2">
         <h3 className='h3'>Struggling with inconsistent posting, low engagement,<span><br /></span>  and time-consuming tasks? </h3>
         <h2 className='h222'><b>We've got you covered.</b></h2>
-        <p></p>
+        </div>
+
+       
         <p className='p0'>
           <b>
           "With our expert social media management services, we take care of everything—from strategy to content creation—so you can focus on growing your business."
@@ -41,7 +44,7 @@ const Solution = () => {
     </div>
     <hr />
     </div>
-  );
+  ); 
 };
 
 export default Solution;

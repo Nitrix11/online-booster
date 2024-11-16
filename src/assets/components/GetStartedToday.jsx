@@ -6,7 +6,7 @@ const GetStartedToday = () => {
     <div id='get'> 
     {/* <img src={getred} className='getred' alt="" /> */}
        <div className="get-started-today">
-      <div className="content-wrapper">
+      <div className="content-wrapper content-wrapper2">
         
         <div className="form-container">
           <div className='texts'>
