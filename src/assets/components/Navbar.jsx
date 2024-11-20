@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${isHovered ? 'hovered' : ''}`}>
-      <h3>Chat with us on Whatsapp now!</h3>
+      <h3 className='navh3'>Chat with us on Whatsapp now!</h3>
       <button
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
