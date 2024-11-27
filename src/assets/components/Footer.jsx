@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="address-section">
           <h3>Address</h3>
-          <p>54 JASON MOYO AVE,HARARE,ZIMBABWE</p>
+          <p>54 Jason Moyo Ave,HArare,Zimbabwe</p>
           <div className="social-links">
   <a href="https://www.facebook.com/people/Bud-Kreative/61559118987578/" className="social-link"><img src={facebook} /></a>
   <a href="https://www.instagram.com/budkreative/" className="social-link"><img src={Instagram} /></a>
