@@ -3,9 +3,9 @@ import './Footer.scss';
 import logo from "../images/footer logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import facebook from"../images/facebook.png";
-import Instagram from"../images/Instagram.png";
+import Instagram from"../images/instagram.png";
 import Linkedin from"../images/LinkedIn.png";
-import Youtube from"../images/YouTube.png";
+import Youtube from"../images/youtube.png";
 import x from"../images/twitter.png";
 import { faFacebookF, faInstagram, faLinkedinIn, faYoutube, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
