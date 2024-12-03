@@ -4145,10 +4145,11 @@ font-weight: 600;            }
     }
     .hero{
       background-image: url("../images/heroBg.png");
-      height: 60vh;
+      height: 30vh;
       width: 100%;
       background-position: center;
       background-repeat: no-repeat;
+      margin-bottom: 0;
     
     }
     .black{
@@ -4253,7 +4254,7 @@ font-weight: 600;            }
     }
     
     .hero{
-      margin-bottom: 300px;
+      /* margin-bottom: 300px; */
       .promo-section{
         .promo-content{
           .text-content{
@@ -4309,6 +4310,7 @@ font-weight: 600;            }
         }
           }
         }
+        margin-bottom: 10px;
       }
     }
     /*end of hero*/
